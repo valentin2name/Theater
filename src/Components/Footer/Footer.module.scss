@@ -1,0 +1,29 @@
+.section {
+    max-width: 1280px;
+    padding: 8px 50px;
+    background-color: #FA434B;
+
+    .wrapp {
+        max-width: 840px;
+        margin: 0 auto;
+
+        .information {
+            display: flex;
+            column-gap: 30px;
+
+            @media screen and (max-width:900px) {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            p {
+                font-size: 18px;
+                padding: 12px 20px;
+                border: 1px solid;
+                border-radius: 15px;
+                border-color: white;
+                color: white;
+            }
+        }
+    }
+}

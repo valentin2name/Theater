@@ -1,0 +1,14 @@
+.wrapp {
+    display: flex;
+    flex-direction: column;
+
+    .title {
+        text-align: center;
+    }
+
+    .total {
+        text-align: center;
+        padding-top: 50px;
+        font-size: 24px;
+    }
+}

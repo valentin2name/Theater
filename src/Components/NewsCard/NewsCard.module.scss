@@ -1,0 +1,39 @@
+.block {
+    width: 100%;
+
+    .picture {
+        width: 100%;
+    }
+
+    .info {
+        display: flex;
+        justify-content: flex-start;
+        justify-content: space-between;
+        padding-top: 20px;
+        column-gap: 15px;
+
+        .data {
+            font-size: 20px;
+
+            @media screen and (max-width:630px) {
+                font-size: 18px;
+            }
+        }
+
+        .time {
+            font-size: 20px;
+            color: #C4C4C4;
+
+            @media screen and (max-width:630px) {
+                font-size: 18px;
+            }
+        }
+    }
+
+    .desc {
+        font-size: 12px;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        color: #86837F;
+    }
+}
